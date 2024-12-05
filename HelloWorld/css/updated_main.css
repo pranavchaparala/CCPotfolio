@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'SF Pro Text', sans-serif;
+  background-color: #282828;
+  color: #fff;
+  line-height: 1.6;
+  padding: 24px;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: left; /* Aligns all items to the left */
+  align-items: center; /* Vertically centers items */
+  gap: 80px; /* Adds 80px space between each item */
+  margin-bottom: 48px;
+  text-transform: lowercase;
+}
+
+.header a{
+  color: white; /* Sets the hyperlink color to white */
+  text-decoration: none; /* Removes the underline from the hyperlink */
+
+}
+
+.about {
+  width: 100%; /* The overall container width */
+  margin-top: 360px;
+  margin-bottom: 48px;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 24px;
+  display: flex; /* Allows layout control */
+  flex-direction: column; /* Ensures text and border stack vertically */
+  align-items: flex-start; /* Aligns the content to the right horizontally */
+}
+
+.about > p {
+  max-width: 40ch; /* Limits text width to approximately 40 characters */
+  text-align: left; /* Aligns the text to the right */
+}
+
+
+.featured-work {
+  width: 100%;
+  margin-top: 48px;
+}
+
+.featured-work h2 {
+  width: 100%;
+  margin-top: 40px;
+  font-size: 20px;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+}
+
+.featured-work-item {
+  display: grid;
+  grid-template-columns: 40px auto 100px 150px;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.featured-work-item a {
+  color: white; /* Sets the hyperlink color to white */
+  text-decoration: underline; /* Removes the underline from the hyperlink */
+}
+
+.featured-work-item span {
+  font-size: 16px;
+}
+
+
+
+.image-top-right {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  width: 400px; /* Adjust as needed for size */
+  height: auto;
+}
+
+
