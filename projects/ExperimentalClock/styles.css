@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'SF Pro Text', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+    padding: 24px;
+    position: relative;
+    max-width: 60%;
+}
+
+.horizontal-line {
+    width: 96vw; /* Set the width to 80% of the viewport width */
+    height: 1px; /* Set the height of the line */
+    background-color: #757575; /* Set the color of the line */
+    margin: 24px auto; /* Adds space above and below the line and centers it */
+}
+
+h1 {
+    margin-bottom: 24px; /* Optional: Adds space below the h1 */
+}
+
+h2 {
+    margin-bottom: 24px; /* Optional: Adds space below the h1 */
+}
+h3{
+    margin-bottom: 16px;
+}
+
+p {
+    margin-bottom: 16px; /* Adds space between paragraphs */
+}

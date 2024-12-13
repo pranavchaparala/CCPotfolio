@@ -1,0 +1,20 @@
+I started making a decision tree game, but it wasn’t very interesting without a compelling story. I got a bit carried away and tried to make it too complex, so I decided to explore other game ideas. I thought about making an isometric game, which seemed easy to do since I figure out how to move around in class.
+
+I designed the character to look like me and made running GIFs on photoshop. I tried to make it look more realistic by flipping a GIF and creating an ideal state. When i tried to link it with key pressed it didn't work and broke movement. Instead, I used the currentKey variable (from Reddit) to store the pressed keys.
+
+I forgot about the autobiographical aspect so had to make a connection with the game. While I was making the assets, I got inspired by games like GTA and NFS which were the first ones to draw me into gaming.
+
+Another game i had was a basic car game which people like during the play test, but I wanted it to look more realistic. I used BlackBox.Ai to add a car that chased me in irregular paths. I didn’t fully understand how it worked, but it did what I wanted.
+
+Now I had two separate sketches: one with a switch statement-based splash screen, prison game, and game over, and another with the car. I combined them using BlackBox.Ai, but it broke both of them so had to fix them.
+
+After trying out a few different game ideas, I found this one to be the most engaging. Most of the core mechanics and assignment requirements were my own, but I used AI for:
+
+- Chasing the car
+- Combining games
+- Randomizing collectible positions
+- Music Transition between screens
+- Resetting player positions after the game reset (still broken because of the music)
+- Smaller troubleshooting
+
+Most of the assets were made by me, chose the music tracks from my favourites, which I picked and trimmed to fit the loop and compress the file sizes.

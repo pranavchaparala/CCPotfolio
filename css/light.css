@@ -4,14 +4,21 @@
   padding: 0;
 }
 
+html {
+  height: 100%; /* Ensure html takes full height */
+  background-image: linear-gradient(#ffffff, #ececec); /* Set background on html */
+}
+
 body {
   font-size: 18px;
   font-family: 'SF Pro Text', sans-serif;
-  background-color: #ffffff;
   color: #000000;
   line-height: 1.6;
-  padding: 24px;
   position: relative;
+}
+
+.container {
+  padding: 24px; /* Apply padding to the container */
 }
 
 .header {
@@ -23,10 +30,9 @@ body {
   text-transform: lowercase;
 }
 
-.header a{
-  color: rgb(0, 0, 0); /* Sets the hyperlink color to white */
+.header a {
+  color: rgb(0, 0, 0); /* Sets the hyperlink color to black */
   text-decoration: none; /* Removes the underline from the hyperlink */
-
 }
 
 .about {
@@ -37,14 +43,13 @@ body {
   padding-bottom: 24px;
   display: flex; /* Allows layout control */
   flex-direction: column; /* Ensures text and border stack vertically */
-  align-items: flex-start; /* Aligns the content to the right horizontally */
+  align-items: flex-start; /* Aligns the content to the left horizontally */
 }
 
 .about > p {
   max-width: 40ch; /* Limits text width to approximately 40 characters */
-  text-align: left; /* Aligns the text to the right */
+  text-align: left; /* Aligns the text to the left */
 }
-
 
 .featured-work {
   width: 100%;
@@ -68,15 +73,13 @@ body {
 }
 
 .featured-work-item a {
-  color: rgb(0, 0, 0); /* Sets the hyperlink color to white */
-  text-decoration: underline; /* Removes the underline from the hyperlink */
+  color: rgb(0, 0, 0); /* Sets the hyperlink color to black */
+  text-decoration: underline; /* Underlines the hyperlink */
 }
 
 .featured-work-item span {
   font-size: 16px;
 }
-
-
 
 .image-top-right {
   position: absolute;
@@ -85,5 +88,3 @@ body {
   width: 400px; /* Adjust as needed for size */
   height: auto;
 }
-
-

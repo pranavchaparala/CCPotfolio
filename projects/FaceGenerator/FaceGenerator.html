@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P5JS Sketches</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="sketch.js"></script>
+</head>
+<body>
+    <div class="container">
+        <a href="/index.html">← BACK</a> 
+        <div class="horizontal-line"></div>
+        <h2>FACE GENERATOR</h2>
+
+        <div id="sketch-container"></div> <!-- Empty div for the p5.js sketch -->
+        
+        <!-- Horizontal line below the sketch -->
+        <div class="horizontal-line"></div>
+
+        <h3>REFLECTIONS</h3>
+        <p>
+            I initially began with a simpler face design for part 1, but I was too limited and needed a different idea. Inspired by Van Gogh's "The Scream," I chose this painting because it conveys emotions, even in a still painting.
+        </p>
+        <p>
+            wanted the face color to remain the same, unlike the examples, so I intended to use the random function and change the background color on mouse press. However, I accidentally discovered a flickering effect that I found to be cooler. Therefore, I decided to keep the background color flickering and instead change the dress color with a mouse click.
+        </p>
+        <p>
+            I used mouseX and mouseY to track the mouse's position and adjust the size of the mouth and eyes. I tried to use if-else logic to restrict the size, but it didn't work. So, I searched the p5 references and found the map function to limit the mouse position and prevent the eyes from exceeding 30 pixels. I still don't fully understand how it works, but through trial and error with the syntax, I ensured there was no overlap.
+        </p>
+        <p>
+            I have used map() & max() functions from references.
+I had one major error with declaring bodycolor variable and broke the code, Searching it on google said i need to declare it outside setup.
+        </p>
+    </div>
+</body>
+</html>
